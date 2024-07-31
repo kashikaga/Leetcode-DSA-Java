@@ -4,7 +4,7 @@ Welcome to this comprehensive collection of solutions for Data Structure and Alg
 
 ## Devlopers Profile
 This repository is devloped by Kashika Gupta
-GitHub - https://github.com/kashikaga
+GitHub - https://github.com/kashikaga/
 LinkedIn - https://www.linkedin.com/in/kashikagupta/
 
 ## Table of Contents

@@ -22,5 +22,6 @@ public class RemoveDuplicates {
         // Return the count of unique elements
         return uniqueIndex;
     }
+}
 
     

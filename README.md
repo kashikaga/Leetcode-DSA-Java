@@ -2,7 +2,7 @@
 
 Welcome to this comprehensive collection of solutions for Data Structure and Algorithm (DSA) problems on LeetCode, implemented in Java. This repository aims to provide clear, concise, and efficient solutions to a wide range of algorithmic challenges, helping developers enhance their problem-solving skills and prepare for technical interviews.
 
-## Developers Profile
+## Developer's Profile
 This repository is devloped by Kashika Gupta
 GitHub - https://github.com/kashikaga/
 LinkedIn - https://www.linkedin.com/in/kashikagupta/

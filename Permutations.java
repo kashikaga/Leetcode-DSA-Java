@@ -7,7 +7,7 @@ class Solution {
         backtrack(result, new ArrayList<>(), nums);
         return result;
     }
-    
+
     private void backtrack(List<List<Integer>> result, List<Integer> tempList, int[] nums) {
         // If the temporary list is the same length as the original array, we found a permutation
         if (tempList.size() == nums.length) {

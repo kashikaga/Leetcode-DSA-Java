@@ -1,6 +1,5 @@
 
 # Distinct Dog Barking Patterns
-
 ## Problem Statement  
 You are monitoring a group of dogs.  
 

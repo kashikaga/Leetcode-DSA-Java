@@ -1,33 +1,28 @@
-public class PalindromeChecker {
+https://leetcode.com/problems/valid-palindrome/description/
+
+class Solution {
     public boolean isPalindrome(String s) {
-       class Solution {
-    public boolean isPalindrome(String s) {
-         // Normalize the string: convert to lowercase and filter out non-alphanumeric characters
-        StringBuilder normalized = new StringBuilder();
-        
+        // Step 1: Clean the input string
+        StringBuilder cleaned = new StringBuilder();
         for (char c : s.toCharArray()) {
             if (Character.isLetterOrDigit(c)) {
-                normalized.append(Character.toLowerCase(c));
+                cleaned.append(Character.toLowerCase(c));
             }
         }
-        
-        // Check if the normalized string is a palindrome
-        String filteredString = normalized.toString();
-        int left = 0;
-        int right = filteredString.length() - 1;
-        
+
+        // Step 2: Use two pointers to check for palindrome
+        int left = 0, right = cleaned.length() - 1;
         while (left < right) {
-            if (filteredString.charAt(left) != filteredString.charAt(right)) {
-                return false; // Not a palindrome
+            if (cleaned.charAt(left) != cleaned.charAt(right)) {
+                return false;
             }
             left++;
             right--;
         }
-        
-        return true; // It is a palindrome
-    
 
+        return true;
     }
 }
+
 
   
